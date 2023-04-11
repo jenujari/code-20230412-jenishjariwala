@@ -3,6 +3,7 @@ import "./assets/styles/index.scss";
 import CallOut from "./components/callout";
 import Explore from "./components/explore";
 import AboutUs from "./components/aboutus";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <CallOut />
       <Explore />
       <AboutUs />
+      <Footer />
     </main>
   );
 }

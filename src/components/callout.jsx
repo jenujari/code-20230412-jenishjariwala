@@ -23,7 +23,7 @@ const CallOut = () => {
               </p>
             </div>
           </div>
-          <button className="btn-call btn-call-light">call</button>
+          <button type="button" className="btn-call btn-call-light">call</button>
         </div>
       </div>
       <div className="center-box">
@@ -63,7 +63,7 @@ const CallOut = () => {
             <input type="text" className="txt-input" placeholder="Add guests" />
           </div>
           <div className="inputgroup">
-            <button className="grd-btn grd-btn-lg">
+            <button type="button" className="grd-btn grd-btn-lg">
               <text className="btn-content">
                 {" "}
                 <BiSearchAlt2 className="ico-search" /> Search
