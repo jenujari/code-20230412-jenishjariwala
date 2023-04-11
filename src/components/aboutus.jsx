@@ -12,7 +12,7 @@ const AboutUs = () => {
     <div className="galary">
       <div className="galary-item" style={{backgroundImage:`url(${chapter1})`}} >
         <div className="banner">
-          <p className="title">Chapter I</p>
+          <p className="title">Chapter 1</p>
           <p className="sub-title">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididun
