@@ -7,7 +7,7 @@ const CallOut = () => {
     <div className="callout-box">
       <div className="menu-bar">
         <div className="logo">
-          <p>Your Logo</p>
+          <p data-testid="logo">Your Logo</p>
         </div>
         <div className="mobile-menu-list">
           <GiHamburgerMenu className="ico-ham" />

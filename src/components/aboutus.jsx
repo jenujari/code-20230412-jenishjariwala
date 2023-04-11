@@ -7,7 +7,7 @@ import chapter4 from "./../assets/images/chapter_4.jpg";
 const AboutUs = () => {
   return (
     <div className="about-us-box">
-    <p className="heading">About Us</p>
+    <p data-testid="about" className="heading">About Us</p>
     <p className="sub-title">Allow us to tell you a short story...</p>
     <div className="galary">
       <div className="galary-item" style={{backgroundImage:`url(${chapter1})`}} >

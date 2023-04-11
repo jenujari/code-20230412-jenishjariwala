@@ -5,7 +5,7 @@ import galary2 from "./../assets/images/galary_2.jpg";
 const Explore = () => {
   return (
     <div className="explore-box">
-      <p className="heading">Explore</p>
+      <p data-testid="explore" className="heading">Explore</p>
       <p className="sub-title">
         From one-guest rooms to penthouses with pools and gardens
       </p>

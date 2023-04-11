@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="footer-box">
       <div className="logo-box">
-        <p className="logo">Your Logo</p>
+        <p data-testid="footer_logo"  className="logo">Your Logo</p>
         <p className="copy-text">© 2021 Company Name All rights reserved</p>
       </div>
       <div className="options-box">
