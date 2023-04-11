@@ -10,8 +10,7 @@ const Explore = () => {
         From one-guest rooms to penthouses with pools and gardens
       </p>
       <div className="galary">
-        <div className="galary-item">
-          <img className="bg-img" src={galary1} alt="galary1" />
+        <div className="galary-item" style={{backgroundImage:`url(${galary1})`}}>
           <div className="banner">
             <div className="left-options">
               <p className="title">Room with one king-size bed</p>
@@ -25,8 +24,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="galary-item">
-          <img className="bg-img" src={galary2} alt="galary2" />
+        <div className="galary-item" style={{backgroundImage:`url(${galary2})`}}>
           <div className="banner">
             <div className="left-options">
               <p className="title">Penthouse for 8 person</p>

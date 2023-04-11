@@ -78,3 +78,22 @@
     }
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .about-us-box {
+    margin-top: 42px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 42px;
+    width: calc(100vw - 38px - 38px);
+
+    .heading {
+      font-size: 42px;
+      line-height: 52px;
+    }
+
+    .galary {
+      grid-template-columns: 1fr;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { RxCaretDown } from "react-icons/rx";
 import { BiSearchAlt2 } from "react-icons/bi";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const CallOut = () => {
   return (
@@ -7,6 +8,9 @@ const CallOut = () => {
       <div className="menu-bar">
         <div className="logo">
           <p>Your Logo</p>
+        </div>
+        <div className="mobile-menu-list">
+          <GiHamburgerMenu className="ico-ham" />
         </div>
         <div className="menu-list">
           <div className="menu">
@@ -23,7 +27,9 @@ const CallOut = () => {
               </p>
             </div>
           </div>
-          <button type="button" className="btn-call btn-call-light">call</button>
+          <button type="button" className="btn-call btn-call-light">
+            call
+          </button>
         </div>
       </div>
       <div className="center-box">

@@ -60,3 +60,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .footer-box {
+    padding-left: 38px;
+    padding-right: 38px;
+
+    .options-box{
+      .menu{
+        flex-direction: column;
+        margin-right: 12px;
+  
+        .menu-item {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}

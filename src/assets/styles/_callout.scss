@@ -36,6 +36,10 @@
       }
     }
 
+    .mobile-menu-list {
+      display: none;
+    }
+
     .menu-list {
       @include flex-row;
       align-items: center;
@@ -109,7 +113,6 @@
         font-style: normal;
         font-weight: 700;
         font-size: 30px;
-        line-height: 110%;
         color: white;
         display: block;
         margin-top: 28px;
@@ -192,6 +195,68 @@
           .ico-search {
             margin-right: 8px;
             margin-top: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .callout-box {
+    height: 100vh;
+    width: 100vw;
+
+    .menu-bar {
+      height: unset;
+      padding-top: 35px;
+      padding-left: 35px;
+      padding-right: 35px;
+
+      .logo {
+        p {
+          margin: 0;
+        }
+      }
+      .mobile-menu-list {
+        display: block;
+        .ico-ham {
+          color: white;
+          font-size: 48px;
+        }
+      }
+      .menu-list {
+        display: none;
+      }
+    }
+
+    .center-box {
+      width: 80%;
+      .title-box {
+        .title {
+          font-size: 52px;
+          line-height: 57px;
+        }
+        .sub-title {
+          font-size: 20px;
+          line-height: 22px;
+        }
+      }
+    }
+
+    .search-box {
+      width: 90%;
+      .form-container {
+        flex-direction: column;
+
+        .inputgroup {
+          margin-bottom: 15px;
+
+          .grd-btn{
+            width: 98%;
+          }
+          .txt-input {
+            width: 95%;
           }
         }
       }

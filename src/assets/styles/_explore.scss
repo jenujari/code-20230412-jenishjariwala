@@ -2,7 +2,7 @@
   padding-left: 64px;
   padding-right: 64px;
   padding-top: 78px;
-  
+
   .heading {
     font-family: "Exo 2";
     font-style: normal;
@@ -30,11 +30,12 @@
 
     .galary-item {
       position: relative;
-
-      .bg-img {
-        height: 100%;
-        width: 100%;
-      }
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      border-radius: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
 
       .banner {
         @include fl-rw-space-between;
@@ -83,7 +84,7 @@
         }
         .right-options {
           align-self: flex-end;
-          
+
           .grd-btn {
             padding: 15px 26px;
             border-radius: 10px;
@@ -94,6 +95,33 @@
           }
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .explore-box {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 42px;
+    width: calc(100vw - 38px - 38px);
+
+    .heading {
+      font-size: 42px;
+      line-height: 52px;
+    }
+
+    .galary {
+      grid-template-columns: 1fr;
+      row-gap: 80px;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .galary-item {
+        height: 300px;
+        border-radius: 18px;
+      }
+
     }
   }
 }
